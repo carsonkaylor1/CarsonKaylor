@@ -2,7 +2,7 @@ import React from 'react';
 import { Cell, Grid } from 'react-mdl';
 
 
-class AboutMe extends React.Component{
+class LandingPage extends React.Component{
     render(){
         return(
             <div className='landing-header-main'>
@@ -40,4 +40,4 @@ class AboutMe extends React.Component{
     }
 }
 
-export default AboutMe;
+export default LandingPage;

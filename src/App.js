@@ -46,7 +46,7 @@ class App extends React.Component{
         <Header title=' ' id='header-bar' scroll>
           <div className='header-links'>
             <Navigation>
-                <Link to="/">Home</Link>
+                <Link to="">Home</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -55,7 +55,7 @@ class App extends React.Component{
         </Header>
         <Drawer title='Carson Kaylor' className='drawer-text'>
             <Navigation>
-                <Link to="/">Home</Link>
+                <Link to="">Home</Link>
                 <Link to="/aboutme">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -63,7 +63,6 @@ class App extends React.Component{
         </Drawer>
         <Content>
             <div className="page-content" />
-            
             <Main />
         </Content>
     </Layout>
