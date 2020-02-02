@@ -1,38 +1,220 @@
-.App {
+body{
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+
+#header-bar{
+  background: #4b6cb7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(24, 40, 72, 0), rgba(75, 108, 183, 0));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(24, 40, 72, 0), rgba(75, 108, 183, 0)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Quicksand', sans-serif;
+}
+
+.drawer-text{
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+.landing-header-main {
+  width: 100%;
+  margin: auto;
+}
+
+.name-header{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 84px;
+  color: white;
+  font-weight: bold;
+}
+
+.avatar-image{
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+.banner-text{
+  font-family: 'Quicksand', sans-serif;
+  opacity: .8;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 4em;
+}
+
+.banner-text h1{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.social{
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.social i{
+  color: white;
+  font-size: 5em;
+  padding: 8px
+  
+}
+
+
+/* Contact Page */
+
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 2em;
+}
+
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 750px;
+  margin-bottom: 20px;
+}
+
+.banner-text-contact{
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 7em;
+}
+
+.banner-text-contact h1{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  font-size: 72px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.banner-text-contact hr{
+  border-top: 5px dotted white;
+  width: 40%;
+  margin: auto;
+}
+
+.contact-list i{
+  font-size: 64px;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+.banner-image-contact h1{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bolder;
+  font-size: 72px;
+  text-align: center;
+}
+
+.contact-image{
+  height: 350px;
+  border-radius: 15px;
+}
+
+
+/* About Me Page */
+.aboutme-grid{
+  white-space: pre-wrap;
+}
+
+.aboutme-body{
+
+}
+
+.aboutme-grid h1{
+  font-size: 72px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.cocky{
+  height: 400px;
+  border-radius: 25px;
+}
+
+.left-grid{
+  background-color: white;
+  padding: 1.5em;
+}
+
+.left-grid h1{
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  text-align: center;
+}
+
+.left-grid p{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  padding: 30px;
+}
+
+.right-grid{
+  /* background-color: #27221F; */
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: 'Quicksand', sans-serif;
+  padding: 1.5em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.right-grid h1{
+  font-family: 'Quicksand', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.left-desc-cell{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.right-desc-cell h4{
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Projects Page */
+
+.projects-grid{
+  display: flex;
+  margin-top: 75px;
+}
+
+.project-tabs{
+  color: red;
 }
