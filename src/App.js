@@ -6,7 +6,7 @@ import Main from './components/main';
 import Projects from './components/projects'
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Particles from 'react-particles-js';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
 
 const particleOptions ={
     particles: {
