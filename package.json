@@ -1,8 +1,8 @@
 {
   "name": "portfolio-mdl",
   "version": "0.1.0",
+  "homepage": "https://github.com/carsonkaylor1/CarsonKaylor",
   "private": true,
-  "homepage": "https://carsonkaylor1.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
