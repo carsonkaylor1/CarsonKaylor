@@ -25,7 +25,23 @@ class Projects extends React.Component{
                     </div> 
                     </CardText>
                     <CardActions border>
-                        <a href='https://github.com/carsonkaylor1/VibeMonk'>
+                        <a href='https://github.com/carsonkaylor1/VibeMonk' rel='noopener noreferrer' target='_blank'>
+                            <Button colored style={{fontFamily:'Quicksand', marginLeft:'25%', width:'50%'}}>Github</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                    </CardMenu>
+                </Card>
+                <Card shadow={25} style={{width: '500px', margin: 'auto'}}>
+                    <a href='https://work-break.netlify.com/' rel='noopener noreferrer' target='_blank'><CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/yt88CNf.jpg) center / cover'}} ></CardTitle></a>
+                    <CardText>
+                    <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>Work/Break Timer</h1>
+                    <div style={{fontFamily:'Quicksand'}}>
+                    A website that provides a timer for work time and break time. Great for tomato lovers.
+                    </div> 
+                    </CardText>
+                    <CardActions border>
+                        <a href='https://github.com/carsonkaylor1/Work-Break' rel='noopener noreferrer' target='_blank'>
                             <Button colored style={{fontFamily:'Quicksand', marginLeft:'25%', width:'50%'}}>Github</Button>
                         </a>
                     </CardActions>
