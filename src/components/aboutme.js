@@ -17,7 +17,7 @@ class AboutMe extends React.Component{
                 <Grid className='aboutme-grid'>
                     
                     <Cell col={4} className='left-grid'>
-                    <div style={{textAlign:'center'}}>
+                    <div style={{textAlign:'center'}} className='left-grid-div'>
                         <h1>Carson Kaylor</h1>
                         <img src='https://i.imgur.com/5Tk7wYt.jpg'
                         alt='cocky'
