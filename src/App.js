@@ -46,10 +46,10 @@ class App extends React.Component{
         <Header title=' ' id='header-bar' scroll>
           <div className='header-links'>
             <Navigation>
-                <Link to="">Home</Link>
-                <Link to="/aboutme">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="" style={{fontSize: '18px'}}>Home</Link>
+                <Link to="/aboutme" style={{fontSize: '18px'}}>About Me</Link>
+                <Link to="/projects" style={{fontSize: '18px'}}>Projects</Link>
+                <Link to="/contact" style={{fontSize: '18px'}}>Contact</Link>
             </Navigation>
             </div>
         </Header>
