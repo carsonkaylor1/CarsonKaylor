@@ -20,7 +20,7 @@ class LandingPage extends React.Component{
                             
                             <hr/>
                             <p>What's up! Thank you for visiting my site.
-                            I am a freelance web developer at your service, here to serve YOU. Find out what I can do for you by <Link to="/contact">contacting</Link>me.</p>
+                            I am a freelance web developer at your service, here to serve YOU. Find out what I can do for you by <Link to="/contact">contacting</Link> me.</p>
                             <div className='social'>
                                 <a href='http://linkedin.com/in/carson-kaylor-2b4635161' rel='noopener noreferrer' target='_blank'>
                                     <i className='fab fa-linkedin' aria-hidden='true'></i>
