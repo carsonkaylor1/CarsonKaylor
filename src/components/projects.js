@@ -16,7 +16,7 @@ class Projects extends React.Component{
         if(this.state.activeTab === 0){
             return(
             <div className='projects-grid'> 
-                <Card shadow={25} style={{width: '500px', margin: 'auto'}}>
+                <Card className='project-card' shadow={25} style={{width: '500px', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://i.imgur.com/fuXNmfW.jpg) center / cover'}}>
                     </CardTitle>
                     <CardText>
@@ -40,8 +40,9 @@ class Projects extends React.Component{
         //Personal Projects Tab
         else if(this.state.activeTab === 1){
             return(
-            <div className='projects-grid'>    
-                <Card shadow={25} style={{width: '500px'}}>
+            <div className='projects-grid'>  
+                <div className='card1'> 
+                <Card className='project-card' shadow={25}>
                     <CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/pNRPx9a.jpg) center / cover'}} ></CardTitle>
                     <CardText>
                     <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>VibeMonk</h1>
@@ -60,7 +61,9 @@ class Projects extends React.Component{
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
-                <Card shadow={25} style={{width: '500px'}}>
+                </div> 
+                <div className='card2'>
+                <Card className='project-card' shadow={25}>
                     <CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/Puv33fe.jpg) center / cover'}} ></CardTitle>
                     <CardText>
                     <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>Work/Break Timer</h1>
@@ -79,6 +82,7 @@ class Projects extends React.Component{
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
+                </div>
             </div>
             )
         }
@@ -87,7 +91,7 @@ class Projects extends React.Component{
         else if(this.state.activeTab === 2){
             return(
             <div className='projects-grid'> 
-                <Card shadow={25} style={{width: '500px', margin: 'auto'}}>
+                <Card className='project-card' shadow={25} style={{margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://i.imgur.com/EufYrpT.jpg) center / cover'}}>
                     </CardTitle>
                     <CardText>
@@ -135,8 +139,8 @@ class Projects extends React.Component{
                 {/* Establishes the tabs, and sets the state when a tab is clicked on */}
                 
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab: tabId})} ripple> 
-                    <Tab style={{color:'white', marginLeft: '25%', fontSize:'24px', fontFamily: 'Quicksand', border: 'red'}}>Client Projects</Tab>
-                    <Tab style={{color:'white', margin:'auto', fontSize:'24px', fontFamily: 'Quicksand'}}>Personal Projects</Tab>
+                    <Tab className='project-tabs' style={{color:'white', marginLeft: '25%', fontFamily: 'Quicksand', border: 'red'}}>Client Projects</Tab>
+                    <Tab className='project-tabs' style={{color:'white', margin:'auto', fontFamily: 'Quicksand'}}>Personal Projects</Tab>
                     {/* <Tab style={{color:'white', marginRight:'25%', fontSize:'24px', fontFamily: 'Quicksand'}}>Apps</Tab> */}
                 </Tabs>
                 
