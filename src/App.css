@@ -307,8 +307,17 @@ body{
   margin-top: 75px;
 }
 
+.card{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 450px;
+}
+
 .project-card{
   margin-top: 25px;
+  width: 500px;
+  margin: 25 10 25 10;
+  
 }
 
 .project-tabs{

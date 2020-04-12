@@ -16,7 +16,8 @@ class Projects extends React.Component{
         if(this.state.activeTab === 0){
             return(
             <div className='projects-grid'> 
-                <Card className='project-card' shadow={25} style={{width: '500px', margin: 'auto'}}>
+            <div className='card'> 
+                <Card className='project-card' shadow={25}>
                     <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://i.imgur.com/fuXNmfW.jpg) center / cover'}}>
                     </CardTitle>
                     <CardText>
@@ -33,6 +34,7 @@ class Projects extends React.Component{
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
+                </div>
             </div>
             )
         }
@@ -41,7 +43,7 @@ class Projects extends React.Component{
         else if(this.state.activeTab === 1){
             return(
             <div className='projects-grid'>  
-                <div className='card1'> 
+                <div className='card'> 
                 <Card className='project-card' shadow={25}>
                     <CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/pNRPx9a.jpg) center / cover'}} ></CardTitle>
                     <CardText>
@@ -62,7 +64,7 @@ class Projects extends React.Component{
                     </CardMenu>
                 </Card>
                 </div> 
-                <div className='card2'>
+                <div className='card'>
                 <Card className='project-card' shadow={25}>
                     <CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/Puv33fe.jpg) center / cover'}} ></CardTitle>
                     <CardText>
