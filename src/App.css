@@ -75,6 +75,16 @@ body{
   text-align: center;
 }
 
+@media (max-width: 767px){
+  .banner-text h1{
+    font-size: 32px;
+  }
+  .banner-text p{
+    text-align: left;
+  }
+    
+}
+
 .social{
   display: inline-flex;
   justify-content: space-around;
