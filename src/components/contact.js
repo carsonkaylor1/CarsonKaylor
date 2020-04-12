@@ -14,14 +14,18 @@ class Contact extends React.Component{
                         <List>
                             <ListItem>
                                 <ListItemContent style={{fontSize: '40px', fontWeight: 'bold', fontFamily: 'Quicksand', paddingTop:'40px', color:'white'}}>
-                                    <i className='fas fa-phone-square-alt' aria-hidden='true'/>
+                                    <div className='contact-info'>
+                                    <i id='phone-icon' className='fas fa-phone-square-alt' aria-hidden='true'/>
                                     240-457-2278
+                                    </div>
                                 </ListItemContent>
                             </ListItem>
                             <ListItem>
                                 <ListItemContent style={{fontSize: '40px', fontWeight: 'bold', fontFamily: 'Quicksand', color:'white'}}>
-                                    <i className='fas fa-envelope-square' aria-hidden='true'/>
+                                    <div className='contact-info'>
+                                    <i id='envelope-icon' className='fas fa-envelope-square' aria-hidden='true'/>
                                     carsonkaylor@gmail.com
+                                    </div>
                                 </ListItemContent>
                             </ListItem>
                         </List>

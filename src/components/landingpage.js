@@ -17,7 +17,6 @@ class LandingPage extends React.Component{
                         className='avatar-image'/>
                         <div className='banner-text'>
                             <h1>Front-End Web Developer</h1>
-                            
                             <hr/>
                             <p>What's up! Thank you for visiting my site.
                             I am a freelance web developer at your service, here to serve YOU. Find out what I can do for you by <Link to="/contact">contacting</Link> me.</p>
