@@ -11,7 +11,7 @@ class LandingPage extends React.Component{
                 <Grid className='landing-grid'>
              
                     <Cell col={12}>               
-                        <h1 className='name-header'>Carson Kaylor Web Solution</h1>
+                        <h1 className='name-header'>Carson Kaylor Web Solutions</h1>
                         <img src="https://i.imgur.com/NVgqpm9.jpg"
                         alt='avatar'
                         className='avatar-image'/>
