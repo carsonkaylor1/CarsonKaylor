@@ -54,6 +54,25 @@ class Projects extends React.Component{
                     </CardMenu>
                 </Card>
             </div>
+            <div className='card'>
+                <Card className='project-card' shadow={25}>
+                    <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://i.imgur.com/uw9xrvB.jpg) center / cover'}}>
+                    </CardTitle>
+                    <CardText>
+                        <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>MG Fulton Excavating</h1>
+                        <div style={{fontFamily:'Quicksand'}}>
+                            An Excavating Service Company
+                        </div>
+                    </CardText>
+                    <CardActions border>
+                    <a href='http://mgfulton.com/' rel='noopener noreferrer' target='_blank'>
+                        <Button colored style={{marginLeft:'25%', width:'50%'}}>Website</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                    </CardMenu>
+                </Card>
+            </div>
             </div>
             )
         }
@@ -68,7 +87,7 @@ class Projects extends React.Component{
                     <CardText>
                     <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>VibeMonk</h1>
                     <div style={{fontFamily:'Quicksand'}}>
-                    A website with the functionality to listen to music and add playlists to your Spotify account through the Spotify API.
+                    A React website with the functionality to listen to music and add playlists to your Spotify account through the Spotify API.
                     </div> 
                     </CardText>
                     <CardActions border>
@@ -83,7 +102,28 @@ class Projects extends React.Component{
                     </CardMenu>
                 </Card>
                 </div> 
-                <div className='card'>
+                <div className='card'> 
+                <Card className='project-card' shadow={25}>
+                    <CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/FwH2kKX.jpg) center / cover'}} ></CardTitle>
+                    <CardText>
+                    <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>The Carroll County Classic Sign Up</h1>
+                    <div style={{fontFamily:'Quicksand'}}>
+                    A React website for the Annual Carroll County Classic Soccer Tournament.
+                    </div> 
+                    </CardText>
+                    <CardActions border>
+                        <a href='https://carroll-county-classic.netlify.app/' rel='noopener noreferrer' target='_blank'>
+                            <Button colored style={{fontFamily:'Quicksand', width:'50%'}}>Website</Button>
+                        </a>
+                        <a href='https://github.com/carsonkaylor1/Carroll-County-Classic' rel='noopener noreferrer' target='_blank'>
+                            <Button colored style={{fontFamily:'Quicksand', width:'50%'}}>Github</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{color: '#fff'}}>
+                    </CardMenu>
+                </Card>
+                </div> 
+                {/* <div className='card'>
                 <Card className='project-card' shadow={25}>
                     <CardTitle style={{color: '000', top:'0', height: '270px', background: 'url(https://i.imgur.com/Puv33fe.jpg) center / cover'}} ></CardTitle>
                     <CardText>
@@ -103,7 +143,7 @@ class Projects extends React.Component{
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
-                </div>
+                </div> */}
             </div>
             )
         }
