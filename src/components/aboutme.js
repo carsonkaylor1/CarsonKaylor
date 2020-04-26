@@ -19,9 +19,9 @@ class AboutMe extends React.Component{
                     <Cell col={4} className='left-grid'>
                     <div style={{textAlign:'center'}} className='left-grid-div'>
                         <h1>Carson Kaylor</h1>
-                        <img src='https://i.imgur.com/5Tk7wYt.jpg'
-                        alt='cocky'
-                        className='cocky'/>
+                        <img src='https://i.imgur.com/NVgqpm9.jpg'
+                        alt='avatar-pic'
+                        className='avatar-pic'/>
                         <p>I have always possessed a passion for working hard and helping others. Growing up I lived on a farm, where I learned what it took to get a job done and get it done right. Over the years I have applied this mentallity to many other aspects of my life.<br/><br/>
                         After pursuing a job in the gaming industry, I decided that my skills could be better used elsewhere. That was when I decided to start making websites. Since then I have been working everyday to improve my web development skills and become the best developer that I can be.<br/><br/>On the weekends you'll find me on the soccer field, on the ski slope, or out camping. There is nothing better to me than fresh air and freedom.</p>
                     </div>

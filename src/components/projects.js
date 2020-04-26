@@ -16,25 +16,44 @@ class Projects extends React.Component{
         if(this.state.activeTab === 0){
             return(
             <div className='projects-grid'> 
-            <div className='card'> 
+                <div className='card'> 
+                    <Card className='project-card' shadow={25}>
+                        <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://i.imgur.com/fuXNmfW.jpg) center / cover'}}>
+                        </CardTitle>
+                        <CardText>
+                            <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>Wolfe Podiatry</h1>
+                            <div style={{fontFamily:'Quicksand'}}>
+                                A Podiatrist Website
+                            </div>
+                        </CardText>
+                        <CardActions border>
+                        <a href='https://wolfepodiatry.com/' rel='noopener noreferrer' target='_blank'>
+                            <Button colored style={{marginLeft:'25%', width:'50%'}}>Website</Button>
+                            </a>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                        </CardMenu>
+                    </Card>
+                </div>
+                <div className='card'>
                 <Card className='project-card' shadow={25}>
-                    <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://i.imgur.com/fuXNmfW.jpg) center / cover'}}>
+                    <CardTitle style={{color: '#fff', height: '270px', background: 'url(https://imgur.com/iSauEu0.jpg) center / cover'}}>
                     </CardTitle>
                     <CardText>
-                        <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>Wolfe Podiatry</h1>
+                        <h1 style={{fontSize:'24px', fontFamily:'Quicksand', marginBottom:'.5em', marginTop:'0'}}>Rosa Remodeling</h1>
                         <div style={{fontFamily:'Quicksand'}}>
-                            A Podiatrist Website
+                            A Home Remodeling Website
                         </div>
                     </CardText>
                     <CardActions border>
-                    <a href='https://wolfepodiatry.com/' rel='noopener noreferrer' target='_blank'>
+                    <a href='http://rosaremod.com/' rel='noopener noreferrer' target='_blank'>
                         <Button colored style={{marginLeft:'25%', width:'50%'}}>Website</Button>
                         </a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>
                 </Card>
-                </div>
+            </div>
             </div>
             )
         }
